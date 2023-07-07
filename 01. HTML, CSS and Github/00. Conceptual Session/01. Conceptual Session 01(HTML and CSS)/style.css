@@ -27,3 +27,58 @@
     color: blue;
     cursor: pointer;
 }
+.banner-container {
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    /* border: 2px solid grey; */
+    background-image: url("./images/background.png"), linear-gradient(45deg, #101010, #151414);
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner-title {
+    font-size: 55px;
+    font-weight: bold;
+}
+.banner-description {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    
+}
+.btn:hover {
+    background-color: cadetblue;
+    cursor: pointer;
+}
+.banner-img {
+    width: 200px;
+}
+.aboutus-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 80px;
+
+}
+.about-heading {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.about-description {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.about-img {
+    width: 220px;
+}
