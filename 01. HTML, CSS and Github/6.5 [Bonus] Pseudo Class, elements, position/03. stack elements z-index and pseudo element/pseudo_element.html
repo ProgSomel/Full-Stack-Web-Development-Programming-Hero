@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Element</title>
+    <style>
+        h3::after {
+            content: '.pdf';
+            color: red;
+            background-color: yellow;
+        }
+        h3::before {
+            content: 'start: ';
+        }
+        p::first-letter {
+            font-size: 2em;
+        }
+        p::first-line {
+            background-color: aquamarine;
+        }
+        ::selection {
+            background-color: yellow;
+        }
+        input::placeholder {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h3>Heading-1</h3>
+    <h3>Heading-2</h3>
+    <h3>Heading-3</h3>
+
+    <input type="text" placeholder="Write here">
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, iusto harum. Impedit accusamus dolor autem magnam vel fugit delectus assumenda minus iure hic aliquid, officiis porro, a unde, dolores nostrum omnis. Numquam placeat repudiandae blanditiis aperiam et quia cupiditate porro aliquam, laboriosam nemo ipsa eius! Beatae voluptas quaerat totam hic tempore dolore deserunt dolor architecto aut ratione enim, ad sint autem accusamus minima, sunt sed non? Optio quam eveniet ab architecto eum, placeat atque? Earum non recusandae maiores sequi hic.</p>
+    <p>Amet et nulla ad. Quae saepe quod sapiente alias ipsa, voluptatum, quaerat reprehenderit, sit ratione perspiciatis laudantium perferendis sed delectus repudiandae explicabo officia maiores voluptas. Ad beatae quaerat adipisci repudiandae eius iusto suscipit maxime eos commodi. At suscipit animi magni nobis corporis quod quis vitae praesentium accusamus. Debitis rem dicta repellat voluptatem impedit doloremque quo exercitationem, quas maxime, eveniet eum ipsum eos optio molestias nihil, doloribus beatae veritatis cumque consectetur? Id, vero magni placeat fuga distinctio deserunt debitis mollitia. Quos.</p>
+    <p>Rerum numquam libero maiores pariatur aut fugiat, quaerat placeat vero doloremque id dolorem minima suscipit nesciunt ab error expedita aperiam qui ex eaque vel assumenda? Reiciendis maxime alias temporibus culpa sint totam minus, obcaecati quidem expedita! Ipsam quis doloribus sapiente harum hic perferendis, ratione ipsum dignissimos totam. Quos laborum nesciunt animi dicta dolores excepturi doloremque, consequuntur cupiditate illum ratione unde. Eos nulla repudiandae dolores laboriosam, eligendi unde commodi praesentium recusandae consectetur deserunt saepe id totam error velit nemo eum voluptatem!</p>
+</body>
+</html>

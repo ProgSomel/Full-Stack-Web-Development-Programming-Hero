@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo class hover, visited, focus</title>
+    <style>
+        h3 {
+            color: green;
+        }
+        h3:hover {
+            color: yellow;
+            background-color: red;
+        }
+        input:focus {
+            color: blue;
+        }
+        a:visited {
+            color: red;
+        }
+        li:last-child {
+            color: red;
+        }
+        li:first-child {
+            color: green;
+        }
+        li:nth-child(2n) {
+            color: purple;
+        }
+    
+    </style>
+</head>
+<body>
+    <h3>My Heading</h3>
+    <input type="text">
+    <input type="text">
+    <input type="text">
+    <a href="https://www.google.com/">Google</a>
+
+    <ul>
+        <li>Home 1</li>
+        <li>Home 2</li>
+        <li>Home 3</li>
+        <li>Home 4</li>
+        <li>Home 5</li>
+        <li>Home 6</li>
+        <li>Home 7</li>
+    </ul>
+</body>
+</html>
